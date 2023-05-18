@@ -1,18 +1,19 @@
 # Composable Testnet 2 Genesis Transaction
 
 ## Binary
-Compile from source:
+Compile from source (go 1.20 recommended):
 ```
 git clone https://github.com/notional-labs/composable-testnet
 cd composable-testnet 
-git checkout v3.0.0
+git checkout v2.3.0 
 make install
 ```
+Precompiled binary could be found here: https://github.com/notional-labs/composable-testnet/releases/tag/v2.3.0
 
 ## Init
 ```
 banksyd init NODE_NAME --chain-id banksy-testnet-2
-wget -O ~/.banksy/config/genesis.json <PREGENESIS_LINK>
+wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/testnet-2/pregenesis.json
 banksyd config chain-id banksy-testnet-2
 ```
 
@@ -36,15 +37,16 @@ banksyd gentx KEYNAME 1000000upica \
 --details="" \
 --website="" \
 --security-contact="" \
---chain-id banksy-testnet-2 \
+--chain-id banksy-testnet-2
 ```
 The output will look like this: 
 ```
 Genesis transaction written to "~/.banksy/config/gentx/gentx-799d25f37dc6c68a549abbcd98e73127ac60d492.json"
 ```
-Fork the repo and create a pull request with your gentx-XXX.json moved to this directory: https://github.com/notional-labs/composable-testnet/tree/main/networks/testnet-2/gentxs
+Fork the repo and create a pull request with your gentx-XXX.json moved to this directory: https://github.com/notional-labs/composable-networks/tree/main/testnet-2/gentxs
 Remember to change the file name to your validator name `gentx-YOURNAME.json`
 Example:
 ```
-mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-testnet/networks/testnet-2/gentxs/gentx-YOURNAME.json
+git clone https://github.com/notional-labs/composable-networks/tree/main/testnet-2/gentxs
+mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/testnet-2/gentxs/gentx-YOURNAME.json
 ```
