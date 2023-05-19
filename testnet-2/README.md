@@ -19,6 +19,7 @@ Please set your `minimum-gas-prices` in `~/.banksy/config/app.toml` to `0upica` 
 You can set the peers/seeds in `config.toml` or run the node with `--p2p.seeds="" --p2p.persistent_peers=""`
 
 Feel free to PR your peers/seeds here:
+
 *Seeds:*
 ```
 5a728267000a2394f4233f5c1fb04961c65a3000@65.109.80.150:2630,5c2a752c9b1952dbed075c56c600c3a79b58c395@composable-testnet-seed.autostake.com:26656,20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:22256,3f472746f46493309650e5a033076689996c8881@composable-testnet.rpc.kjnodes.com:15959
