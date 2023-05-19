@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-05-22T08:20:00Z",
+  "genesis_time": "2023-05-19T17:00:00.000Z",
   "chain_id": "banksy-testnet-2",
   "initial_height": "1",
   "consensus_params": {
