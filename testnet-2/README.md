@@ -32,5 +32,5 @@ a8da45683cc35c4743e27eac5e2d33498b7a700d@65.108.225.126:56656,06206d0f5afb5b6d9d
 ### Download the genesis and start:
 ```
 wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/testnet-2/genesis.json
-banksyd start --minimum-gas-prices=0upica --p2p.seeds 
+banksyd start --minimum-gas-prices=0upica
 ```
