@@ -8,10 +8,11 @@ Gentxs Instruction [here](https://github.com/notional-labs/composable-networks/t
 Testnet-2 launch version: v2.3.2, precompiled binary for linux could be found here: https://github.com/notional-labs/composable-testnet/releases/tag/v2.3.2
 
 ```
-cd ~/composable-testnet 
+cd ~/composable-testnet
 git fetch --all
-git checkout v2.3.2 
+git checkout v2.3.2
 make install
+banksyd tendermint unsafe-reset-all
 ```
 Please set your `minimum-gas-prices` in `~/.banksy/config/app.toml` to `0upica` or start the node with the flag `--minimum-gas-prices=0upica`
 
