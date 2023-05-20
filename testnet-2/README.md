@@ -27,7 +27,7 @@ Feel free to PR your peers/seeds here:
 
 *Seeds:*
 ```
-872c8a78a17a24d6f44e1126c46ef52069c7bb18@65.109.80.150:2630,5c2a752c9b1952dbed075c56c600c3a79b58c395@composable-testnet-seed.autostake.com:26976,20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:22256,3f472746f46493309650e5a033076689996c8881@composable-testnet.rpc.kjnodes.com:15959,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:22256,945e8384ea51c5c6f7b9a90df8d8da120516d897@rpc.composable-t.indonode.net:47656
+872c8a78a17a24d6f44e1126c46ef52069c7bb18@65.109.80.150:2630,5c2a752c9b1952dbed075c56c600c3a79b58c395@composable-testnet-seed.autostake.com:26976,20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:22256,3f472746f46493309650e5a033076689996c8881@composable-testnet.rpc.kjnodes.com:15959,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:22256,945e8384ea51c5c6f7b9a90df8d8da120516d897@rpc.composable-t.indonode.net:47656,20cda42604058d2ad0b21ef2b3cbad3feae81786@95.214.53.218:10656
 ```
 
 *Peers:*
@@ -40,3 +40,12 @@ a8da45683cc35c4743e27eac5e2d33498b7a700d@65.108.225.126:56656,06206d0f5afb5b6d9d
 wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/testnet-2/genesis.json
 banksyd start --minimum-gas-prices=0upica
 ```
+
+### Node Snapshot
+- [genznodes](https://genznodes.dev/testnet/composable/snapshot/)
+
+### Node State Sync
+- [genznodes](https://genznodes.dev/testnet/composable/statesync/)
+
+### Live addrbook
+- [genznodes](https://genznodes.dev/testnet/composable/addrbook/)
