@@ -5,10 +5,10 @@ Compile from source (go 1.20 recommended):
 ```
 git clone https://github.com/notional-labs/composable-testnet
 cd composable-testnet 
-git checkout v2.3.0 
+git checkout v2.3.1
 make install
 ```
-Precompiled binary could be found here: https://github.com/notional-labs/composable-testnet/releases/tag/v2.3.0
+Precompiled binary could be found here: https://github.com/notional-labs/composable-testnet/releases/tag/v2.3.1
 
 ## Init
 ```
