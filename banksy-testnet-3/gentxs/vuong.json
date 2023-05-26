@@ -1,0 +1,62 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": "123"
+                },
+                "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "banksy1mlsq09u5fn0v50pgaktnlcsypeqdld43zf78ym",
+                "validator_address": "banksyvaloper1mlsq09u5fn0v50pgaktnlcsypeqdld43ukz5fr",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "Co9p22ybcuyR/p8I0IrMxVmU6LA/nwq7mQUxRQpydnE="
+                },
+                "value": {
+                    "denom": "ppica",
+                    "amount": "10000000000000000"
+                }
+            }
+        ],
+        "memo": "4784f91d615e57a1ea15694db692fb8839f7b483@192.168.111.147:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "A7G+nT6p2g6HSrM7pPCEYh9sJjT36OpeJZ69/nAwb2o6"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        },
+        "tip": null
+    },
+    "signatures": [
+        "Dt9IIs14iKFCMlX/Gco2aoXkRYzlsMk81on7UeDAC2JM0Z2yD2R6HbDuURHHVMO5GJzJQ33eE4sKzUsaLMj68Q=="
+    ]
+}
