@@ -30,8 +30,8 @@ banksyd keys add KEYNAME --recover
 ## Creating genesis transaction
 Step-by-step guide:
 ```
-banksyd add-genesis-account KEYNAME 1000000000000ppica
-banksyd gentx KEYNAME 1000000000000ppica \
+banksyd add-genesis-account KEYNAME 10000000000000000ppica
+banksyd gentx KEYNAME 10000000000000000ppica \
 --moniker="" \
 --identity="" \
 --details="" \
