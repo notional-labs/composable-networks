@@ -1,4 +1,4 @@
-## Composable Testnet 2 chain info
+## Composable Testnet 3 chain info
 
 Gentxs Instruction [here](https://github.com/notional-labs/composable-networks/tree/main/testnet-3/gentxs)
 
