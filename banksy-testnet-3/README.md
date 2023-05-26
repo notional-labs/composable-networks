@@ -4,9 +4,6 @@ Gentxs Instruction [here](https://github.com/notional-labs/composable-networks/t
 
 ## Syncing materials:
 
-### Explorer:
-[nodexcapital](https://explorer.nodexcapital.com/composable)
-
 ### Binary and config:
 
 Testnet-3 launch version: v2.3.4, precompiled binary for linux could be found here: https://github.com/notional-labs/composable-testnet/releases/tag/v2.3.4
