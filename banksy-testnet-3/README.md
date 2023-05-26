@@ -15,4 +15,3 @@ git checkout v2.3.4
 make install
 banksyd tendermint unsafe-reset-all
 ```
-Please set your `minimum-gas-prices` in `~/.banksy/config/app.toml` to `0ppica` or start the node with the flag `--minimum-gas-prices=0ppica`
