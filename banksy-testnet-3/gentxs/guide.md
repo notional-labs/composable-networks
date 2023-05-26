@@ -49,6 +49,6 @@ Remember to change the file name to your validator name `gentx-YOURNAME.json`
 
 Example:
 ```
-git clone https://github.com/notional-labs/composable-networks/tree/main/testnet-2/gentxs
-mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/testnet-2/gentxs/gentx-YOURNAME.json
+git clone https://github.com/notional-labs/composable-networks/tree/main/banksy-testnet-3/gentxs
+mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/banksy-testnet-3/gentxs/gentx-YOURNAME.json
 ```
