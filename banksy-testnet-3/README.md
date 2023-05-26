@@ -1,6 +1,6 @@
 ## Composable Testnet 3 chain info
 
-Gentxs Instruction [here](https://github.com/notional-labs/composable-networks/tree/main/testnet-3/gentxs)
+Gentxs Instruction [here](https://github.com/notional-labs/composable-networks/tree/main/banksy-testnet-3/gentxs/guide.md)
 
 ## Syncing materials:
 
