@@ -23,8 +23,8 @@
           "key": "Aq7Ug+p4HcRnNKEvsmmS9dKZZKgUj1H7pkvekpsoY9o="
         },
         "value": {
-          "denom": "upica",
-          "amount": "1000000"
+          "denom": "ppica",
+          "amount": "10000000000000000"
         }
       }
     ],
@@ -57,6 +57,6 @@
     "tip": null
   },
   "signatures": [
-    "xLzEJ7n0Yu7CFBPq9jWg9uVRFoCi0QXaT/6Gh/W7ce1apDbmMtQg1ecqiPTWI2/qjwiVbWYafXAnlUHIzneQlw=="
+    "/u6pTkhmOkTi46hSq22L7rlrkTcDvDHh73GNx9G/UiRkkSMxc9KdrVj+9cpdeTyy7zZ2snTREhUvzzPM5FeSjg=="
   ]
 }
