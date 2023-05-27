@@ -24,7 +24,7 @@
         },
         "value": {
           "denom": "ppica",
-          "amount": "1000000"
+          "amount": "10000000000000000"
         }
       }
     ],
@@ -63,6 +63,6 @@
     "tip": null
   },
   "signatures": [
-    "9yrx0U6R2bA0cBUVDzno68cdFqrhZWcOasw1RX5AWndctsiOxQ8hQVjqesM21wqTrYiO/vMg36FHL/QqXV1CdA=="
+    "+iOzYtAnQPN3pUNcD5wBlO6LoTbB8Rx9eLsN12vPTaQs3XojrIZ1a5qtlE9tc2qAH1VQQmUkVJ4FZhMzDTKcDg=="
   ]
 }
