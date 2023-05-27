@@ -5,6 +5,7 @@ Compile from source (go 1.20 recommended):
 ```
 git clone https://github.com/notional-labs/composable-testnet
 cd composable-testnet 
+git fetch --all
 git checkout v2.3.4
 make install
 ```
