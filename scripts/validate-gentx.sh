@@ -78,7 +78,7 @@ else
     echo "..........Starting node......."
     ./bin/banksyd start --home $BANKSY_HOME &
 
-    sleep 30s
+    sleep 1800s
 
     echo "...checking network status.."
 
