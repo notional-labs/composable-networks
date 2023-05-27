@@ -11,7 +11,7 @@
           "details": "The First Community Governed Validator in the Cosmos 🪐"
         },
         "commission": {
-          "rate": "0.010000000000000000",
+          "rate": "0.050000000000000000",
           "max_rate": "0.200000000000000000",
           "max_change_rate": "0.010000000000000000"
         },
@@ -57,6 +57,6 @@
     "tip": null
   },
   "signatures": [
-    "cQnIdW83kowu5UWtKnj+zJe4XSMZBFGRzwq6uPDhUrAgz5k20J5FTcySMd3J5GlECYiDbZ7glI0g2uCW4/jGGw=="
+    "dwTrdwX9K0kgSiSLmv0J+q27bbObunmArPgUroA8ZVJOZGePTGMk8IAQRBFXBnxEox6EVDhLvMUgrfMmBga9Mw=="
   ]
 }
