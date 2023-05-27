@@ -23,7 +23,7 @@
           "key": "Ex7425SOEW/BrnI26NGUJIWVkkzi82g4uqq3xXwIBbM="
         },
         "value": {
-          "denom": "upica",
+          "denom": "ppica",
           "amount": "1000000"
         }
       }
@@ -63,6 +63,6 @@
     "tip": null
   },
   "signatures": [
-    "YxVwOuqh7hXuYiOwWKMc6IaIIyMS3I1blmH7WFox+UJyH7mstQUCeC3DTXlaAu7rgOM0OqHGE+pUxUkDklIcFg=="
+    "9yrx0U6R2bA0cBUVDzno68cdFqrhZWcOasw1RX5AWndctsiOxQ8hQVjqesM21wqTrYiO/vMg36FHL/QqXV1CdA=="
   ]
 }
