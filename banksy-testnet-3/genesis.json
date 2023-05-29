@@ -2786,7 +2786,7 @@
           }
         ],
         "max_deposit_period": "86400s",
-        "voting_period": "86400s",
+        "voting_period": "3600s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
@@ -2858,12 +2858,12 @@
         "inflation_rate_change": "0.130000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520",
-        "max_token_per_year": "1000000000000000",
-        "min_token_per_year": "800000000000000"
+        "max_token_per_year": "99999999000000000000",
+        "min_token_per_year": "99999999000000000000"
       },
       "incentives_supply": {
         "denom": "ppica",
-        "amount": "100000000000"
+        "amount": "66666666000000000000"
       }
     },
     "packetfowardmiddleware": {
@@ -2875,9 +2875,9 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600s",
+        "downtime_jail_duration": "60s",
         "slash_fraction_double_sign": "0.050000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
       },
