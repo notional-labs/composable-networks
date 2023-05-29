@@ -293,6 +293,13 @@
           "pub_key": null,
           "account_number": "34",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1wxl09qwpwe94c5702ttw5hj8h4lr4k5cleakh6",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
         }
       ]
     },
@@ -398,6 +405,15 @@
             {
               "denom": "ppica",
               "amount": "10001000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1wxl09qwpwe94c5702ttw5hj8h4lr4k5cleakh6",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "1000000000000000000215"
             }
           ]
         },
