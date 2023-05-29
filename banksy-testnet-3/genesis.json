@@ -2878,7 +2878,7 @@
         "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "6000s",
-        "slash_fraction_double_sign": "0.1000000000000000000",
+        "slash_fraction_double_sign": "0.100000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
       },
       "signing_infos": [],
