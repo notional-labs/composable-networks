@@ -22,11 +22,11 @@ Feel free to PR your peers/seeds here:
 
 *Seeds:*
 ```
-872c8a78a17a24d6f44e1126c46ef52069c7bb18@65.109.80.150:21500
+364b8245e72f083b0aa3e0d59b832020b66e9e9d@65.109.80.150:21500
 ```
 
 ### Download the genesis and start:
 ```
 wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-3/genesis.json
-banksyd start --p2p.seeds 872c8a78a17a24d6f44e1126c46ef52069c7bb18@65.109.80.150:21500
+banksyd start --p2p.seeds 364b8245e72f083b0aa3e0d59b832020b66e9e9d@65.109.80.150:21500
 ```
