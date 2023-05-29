@@ -2782,7 +2782,7 @@
         "min_deposit": [
           {
             "denom": "ppica",
-            "amount": "10000000"
+            "amount": "100000000000000"
           }
         ],
         "max_deposit_period": "172800s",
