@@ -1,4 +1,4 @@
-# Composable Testnet 3 Genesis Transaction
+# Mainnet Genesis Transaction
 
 ## Binary
 Compile from source (go 1.20 recommended):
