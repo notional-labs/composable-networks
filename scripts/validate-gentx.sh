@@ -20,7 +20,7 @@ else
     echo "...........Init Banksy.............."
 
     git clone https://github.com/notional-labs/composable-centauri
-    cd composable-testnet
+    cd composable-centauri
     git checkout v2.3.5
     make build
     chmod +x ./bin/banksyd
