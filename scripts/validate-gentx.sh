@@ -5,7 +5,7 @@ CHAIN_ID=centauri-1
 DENOM=ppica
 MAXBOND=500000000000000000
 
-GENTX_FILE=$(find ./$CHAIN_ID/gentxs -iname "*.json")
+GENTX_FILE=$(find ./mainnet/gentxs -iname "*.json")
 LEN_GENTX=$(echo ${#GENTX_FILE})
 
 
