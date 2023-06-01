@@ -12,7 +12,12 @@ banksyd tendermint unsafe-reset-all
 ```
 
 ### Peers & seeds:
-You can set the peers/seeds in `config.toml` or run the node with `--p2p.seeds="" --p2p.persistent_peers=""`
+You can set the peers/seeds in `config.toml`:
+```
+sed -i '215s/""/"c7f52f81ee1b1f7107fc78ca2de476c730e00be9@65.109.80.150:2635"/' ~/.banksy/config/config.toml 
+```
+
+or run the node with `--p2p.seeds="" --p2p.persistent_peers=""`
 
 Feel free to PR your peers/seeds here:
 
