@@ -115,7 +115,7 @@
             }
           ],
           "max_deposit_period": "172800s",
-          "voting_period": "259200s",
+          "voting_period": "432000s",
           "quorum": "0.300000000000000000",
           "threshold": "0.500000000000000000",
           "veto_threshold": "0.334000000000000000",
