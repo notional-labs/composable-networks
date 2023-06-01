@@ -1,7 +1,7 @@
 #!/bin/sh
 BANKSY_HOME="/tmp/banksy$(date +%s)"
 RANDOM_KEY="randombanksyvalidatorkey"
-CHAIN_ID=banksy-testnet-3
+CHAIN_ID=centauri-1
 DENOM=ppica
 MAXBOND=500000000000000000
 
