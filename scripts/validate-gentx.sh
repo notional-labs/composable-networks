@@ -19,7 +19,7 @@ else
 
     echo "...........Init Banksy.............."
 
-    # git clone https://github.com/notional-labs/composable-testnet
+    git clone https://github.com/notional-labs/composable-centauri
     cd composable-testnet
     git checkout v2.3.5
     make build
