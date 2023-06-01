@@ -1,4 +1,5 @@
 # Mainnet Genesis Transaction
+*Centauri-1*
 
 ## Binary
 Compile from source (go 1.20 recommended):
