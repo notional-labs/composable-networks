@@ -31,8 +31,8 @@ banksyd keys add KEYNAME --recover
 ## Creating genesis transaction
 Step-by-step guide:
 ```
-banksyd add-genesis-account KEYNAME 10000000000000000ppica
-banksyd gentx KEYNAME 10000000000000000ppica \
+banksyd add-genesis-account KEYNAME 50000000000000ppica
+banksyd gentx KEYNAME 50000000000000ppica \
 --moniker="" \
 --identity="" \
 --details="" \
@@ -50,6 +50,6 @@ Remember to change the file name to your validator name `gentx-YOURNAME.json`
 
 Example:
 ```
-git clone https://github.com/notional-labs/composable-networks/tree/main/centauri-1/gentxs
-mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/centauri-1/gentxs/gentx-YOURNAME.json
+git clone https://github.com/notional-labs/composable-networks
+mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/mainnet/gentxs/gentx-YOURNAME.json
 ```
