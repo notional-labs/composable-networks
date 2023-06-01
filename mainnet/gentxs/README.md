@@ -10,7 +10,7 @@ git fetch --all
 git checkout v2.3.5
 make install
 ```
-Precompiled binary could be found here: https://github.com/notional-labs/composable-centauri/releases/tag/v2.3.5
+Precompiled binary could be found here: https://github.com/notional-labs/composable-centauri/releases/download/v2.3.5/banksyd
 
 ## Init
 ```
