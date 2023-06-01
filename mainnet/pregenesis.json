@@ -111,7 +111,7 @@
           "min_deposit": [
             {
               "denom": "ppica",
-              "amount": "100000000000000"
+              "amount": "500000000000000000"
             }
           ],
           "max_deposit_period": "172800s",
@@ -216,7 +216,7 @@
       "staking": {
         "params": {
           "unbonding_time": "1814400s",
-          "max_validators": 100,
+          "max_validators": 50,
           "max_entries": 7,
           "historical_entries": 10000,
           "bond_denom": "ppica",
