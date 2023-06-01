@@ -3,7 +3,7 @@ BANKSY_HOME="/tmp/banksy$(date +%s)"
 RANDOM_KEY="randombanksyvalidatorkey"
 CHAIN_ID=centauri-1
 DENOM=ppica
-MAXBOND=500000000000000000
+MAXBOND=50000000000000
 
 GENTX_FILE=$(find ./mainnet/gentxs -iname "*.json")
 LEN_GENTX=$(echo ${#GENTX_FILE})
