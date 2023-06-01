@@ -18,4 +18,5 @@ Feel free to PR your peers/seeds here:
 
 *Seeds:*
 ```
+c7f52f81ee1b1f7107fc78ca2de476c730e00be9@65.109.80.150:2635
 ```
