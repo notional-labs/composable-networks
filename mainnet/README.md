@@ -1,3 +1,12 @@
+## Composable mainnet: centauri-1
+
+### Hardware recommendation:
+
+Quad core or larger amd64 CPU
+
+64GB+ RAM
+
+1TB+ NVMe Storage
 
 ### Binary and config:
 
