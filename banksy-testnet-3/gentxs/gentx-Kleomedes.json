@@ -4,23 +4,23 @@
       {
         "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
         "description": {
-          "moniker": "StakeTown",
-          "identity": "FE38D8D1E0E5011F",
-          "website": "",
-          "security_contact": "staketown@gmail.com",
-          "details": "Professional PoS validator team"
+          "moniker": "Kleomedes",
+          "identity": "AD6C05DA12E42B70",
+          "website": "https://www.kleomed.es",
+          "security_contact": "marco@kleomed.es",
+          "details": "The First Community Governed Validator in the Cosmos 🪐"
         },
         "commission": {
-          "rate": "0.100000000000000000",
+          "rate": "0.050000000000000000",
           "max_rate": "0.200000000000000000",
           "max_change_rate": "0.010000000000000000"
         },
         "min_self_delegation": "1",
-        "delegator_address": "banksy1c7muuzp5dgd3kwadrhp5dg2uswpzvwlj4t4sqy",
-        "validator_address": "banksyvaloper1c7muuzp5dgd3kwadrhp5dg2uswpzvwljt5frdu",
+        "delegator_address": "banksy1gz2c6rkwf9quztvwynwr2hsa9lmldnjl20u2rr",
+        "validator_address": "banksyvaloper1gz2c6rkwf9quztvwynwr2hsa9lmldnjl5sqewm",
         "pubkey": {
           "@type": "/cosmos.crypto.ed25519.PubKey",
-          "key": "ItKIRpdDn+TijqHzgjBPW2Fbjr9/AqUszoqC9+wgxJc="
+          "key": "BbEZ5hDoWMW7pd0LiubfvtyDZm4Ap+iuQ/boSp+CeZo="
         },
         "value": {
           "denom": "ppica",
@@ -28,7 +28,7 @@
         }
       }
     ],
-    "memo": "9fc2b9e402fa30ed140a0dbd7391af5d4b4b424d@65.109.90.171:26656",
+    "memo": "76bf57000f08fd334a2f013bd956d50d3ad0db9a@10.10.10.65:26656",
     "timeout_height": "0",
     "extension_options": [],
     "non_critical_extension_options": []
@@ -38,7 +38,7 @@
       {
         "public_key": {
           "@type": "/cosmos.crypto.secp256k1.PubKey",
-          "key": "A1cNGuUgkDJe+wZvz+zNA9BJYi13zkXfnii87FZ2SAJ1"
+          "key": "A1MpTE9K5vwJuvtdlh/veiuIsL2f6B4koP4Q9Bm4qfoD"
         },
         "mode_info": {
           "single": {
@@ -57,7 +57,6 @@
     "tip": null
   },
   "signatures": [
-    "w1JXN8SpcHpmndIMAL+xCTqQzXoObb0TCU7F7EHagCJfRGUFRJbWivLYe0gXxt3peMswRm5m32t70h29Duh7bg=="
+    "dwTrdwX9K0kgSiSLmv0J+q27bbObunmArPgUroA8ZVJOZGePTGMk8IAQRBFXBnxEox6EVDhLvMUgrfMmBga9Mw=="
   ]
 }
-
