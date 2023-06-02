@@ -1,11 +1,11 @@
 #!/bin/sh
 BANKSY_HOME="/tmp/banksy$(date +%s)"
 RANDOM_KEY="randombanksyvalidatorkey"
-CHAIN_ID=banksy-testnet-3
+CHAIN_ID=centauri-1
 DENOM=ppica
-MAXBOND=500000000000000000
+MAXBOND=50000000000000
 
-GENTX_FILE=$(find ./$CHAIN_ID/gentxs -iname "*.json")
+GENTX_FILE=$(find ./mainnet/gentxs -iname "*.json")
 LEN_GENTX=$(echo ${#GENTX_FILE})
 
 
@@ -19,9 +19,9 @@ else
 
     echo "...........Init Banksy.............."
 
-    git clone https://github.com/notional-labs/composable-testnet
-    cd composable-testnet
-    git checkout v2.3.4
+    git clone https://github.com/notional-labs/composable-centauri
+    cd composable-centauri
+    git checkout v2.3.5
     make build
     chmod +x ./bin/banksyd
 
@@ -31,7 +31,7 @@ else
 
     echo "..........Fetching genesis......."
     rm -rf $BANKSY_HOME/config/genesis.json
-    curl -s https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-3/pregenesis.json >$BANKSY_HOME/config/genesis.json
+    curl -s https://raw.githubusercontent.com/notional-labs/composable-networks/main/mainnet/pregenesis.json > $BANKSY_HOME/config/genesis.json
 
     # this genesis time is different from original genesis time, just for validating gentx.
     sed -i '/genesis_time/c\   \"genesis_time\" : \"2023-05-25T00:00:00Z\",' $BANKSY_HOME/config/genesis.json
