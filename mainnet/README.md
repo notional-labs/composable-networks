@@ -16,6 +16,12 @@ cd composable-centauri
 git checkout v2.3.5
 make install
 ```
+## Genesis:
+Final mainnet genesis:
+```
+banksyd tendermint unsafe-reset-all
+wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/mainnet/genesis.json
+```
 
 ## P2P connection:
 You can set the peers/seeds in `config.toml`:
