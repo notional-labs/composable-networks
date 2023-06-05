@@ -17,7 +17,7 @@ git checkout v2.3.5
 make install
 ```
 ## Genesis:
-Final mainnet genesis:
+Final mainnet genesis: https://raw.githubusercontent.com/notional-labs/composable-networks/main/mainnet/genesis.json
 ```
 banksyd tendermint unsafe-reset-all
 wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/mainnet/genesis.json
