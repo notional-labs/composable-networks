@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-06-05T20:59:00.000Z",
+  "genesis_time": "2023-06-05T20:59:00Z",
   "chain_id": "centauri-1",
   "initial_height": "1",
   "consensus_params": {
@@ -405,6 +405,13 @@
           "pub_key": null,
           "account_number": "50",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy10556m38z4x6pqalr9rl5ytf3cff8q46nc2xlmr",
+          "pub_key": null,
+          "account_number": "51",
+          "sequence": "0"
         }
       ]
     },
@@ -654,6 +661,15 @@
             {
               "denom": "ppica",
               "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy10556m38z4x6pqalr9rl5ytf3cff8q46nc2xlmr",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "1000000000000000000000"
             }
           ]
         },
