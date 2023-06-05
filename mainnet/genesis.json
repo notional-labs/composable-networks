@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-06-05T17:00:00Z",
+  "genesis_time": "2023-06-05T20:59:00.000Z",
   "chain_id": "centauri-1",
   "initial_height": "1",
   "consensus_params": {
