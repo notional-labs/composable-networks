@@ -8,7 +8,7 @@ Quad core or larger amd64 CPU
 ```
 ## Binary:
 
-Testnet-3 launch version: v2.3.5, precompiled binary for linux-amd64 could be found here: https://github.com/notional-labs/composable-centauri/releases/tag/v2.3.5
+Mainnet launch version: v2.3.5, precompiled binary for linux-amd64 could be found here: https://github.com/notional-labs/composable-centauri/releases/tag/v2.3.5
 
 ```
 git clone https://github.com/notional-labs/composable-centauri
