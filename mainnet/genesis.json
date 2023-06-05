@@ -1,0 +1,1049 @@
+{
+  "genesis_time": "2023-06-05T17:00:00Z",
+  "chain_id": "centauri-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "07-tendermint": null,
+    "08-wasm": {
+      "contracts": []
+    },
+    "alliance": {
+      "assets": [],
+      "delegations": [],
+      "params": {
+        "last_take_rate_claim_time": "0001-01-01T00:00:00Z",
+        "reward_delay_time": "604800s",
+        "take_rate_claim_interval": "300s"
+      },
+      "redelegations": [],
+      "reward_weight_change_snaphots": [],
+      "undelegations": [],
+      "validator_infos": []
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1kl9e4jghxftmamrmset4yhuhwmf2uu637asj52",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy123rv9yms3dwfs0gh8rwenzxn8u5w34pen5fl6j",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ugxfpz7x6c4zesanh2vv6u925trpm2xe6zj70a",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ah66se5x95za5pma42ck0dexnnydqdar25ycx2",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1cgqxeuxycuvdr9stlnzedtsmhel46f8ux8ggty",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ttfw6wsh4p50xzqvljqdsxx0lpuq8glgvmaca3",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1wwgrl05jkk3a3m9gm0wwmvq3r0fd93p8hvzay0",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1dxw8xn38y3xxnsnqtx7m0yjgyjjnjksynw7jex",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1e70myv36hgwa2lss556wjt5aszxkjmauten0wm",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1wdmxsmqw7lgrj4eaf5rtl86vmcmuqz2grgk70s",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy140l6y2gp3gxvay6qtn70re7z2s0gn57zx7v3u2",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy10jmtfrgcaky8d0uqrqt53u92pjwjz7g3nks8ua",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1xhrtx9x030cw95qmhs2alypn72vxjszpwwncex",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1777vhtpwld6chyhy0947a0wvhjftx67v0ttq6v",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1p677qe3xgjgm3w7aeccmaqdgltf29rmrrqxm3e",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy13seedrg58ckmdzmuqz6xd8swcvxsdy8mtpkusr",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy19f0w9svr905fhefusyx4z8sf83j6et0g2vlyp8",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1l836s3p6vrgmmh0zm4fp7fphru6dqq3qz8xd27",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1kth8g5d4du4etd3v6mky7x3t0mahk8hrcxfv4e",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy12zlkhsyrlfusqrfdag3ktwf6uxzdr9zx58k48u",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ca22368exer6vcyrhrqgye3mmks9njzr0gfvah",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy180wngzau7jzdw9xdqp0a4mm7740y5rfzffjsey",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1xj806ur5e9s2yzaag8wyffp542pkkmdal5n4x4",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1c3npqc23h0rw0s2s5la0umel4w0uff94d4c776",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ckpeee8vv2vppzaktdnn8lcj87y5qsg7wxh88j",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1n7dz0p8ag42lh6qqvqrflw35qyu9dfefgqy8zz",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy19klmacamxh9cnmq209zxagnjzr5gw9ee3ek3sn",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1p86dkzgthapcqkgymq70qvjnt4exf09hamhkza",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1853yrelll4y2l0n5np4465xr0x0azranupktcp",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy18wjv3ltj2fpg32knqy7ycms9alrwauwm2evvtk",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ecxls8tq8csdqns7cpe8zcry864z8z0dhzpsak",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1rsgkgzmtrglrfx3zytpapc35m8g954z4hw376h",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1wrmdr3wac569csgk2kpkdslpjwgxa4ldyk9djd",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1fmz5pw0agjg4mz4nxs34ha6rc5337fc3cufhqv",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1fg9m8zcjrhvzw2kkrdjvppw255n3z7melt2332",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1xp6n38h3zh75pk874tkxt7w7jdslul0vae3fsa",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ugec23qgj9ungv3uflg47mzrw90h3d9dhesqwc",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy16fxpvh0xp5fset0exn766m7lmyucaarawggpfd",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy18d0hqufk3475dlct7fzlg8nn428d3xm73g5vxf",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1j4n3e02s95c3jgz7m0lapnz9caynmj0nme85a5",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy17r87nugyy4qevl4s355vd6exls8w3lcx6e34d6",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1lx7cmt7kfa4de82sl8cdn0yy4vu3q0d4gdnu8t",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1u4xt3ka747ll5938y938hwhksdyex2vlmp8hsl",
+          "pub_key": null,
+          "account_number": "42",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1rrfdtx5qj4d9nt5pzsaz5fv85pclcu0h8mf6rk",
+          "pub_key": null,
+          "account_number": "43",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy19xhmx2krzmqwypjnqht28r43mkw3hy6mnpdjpp",
+          "pub_key": null,
+          "account_number": "44",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1ang6lqf2zzgjln4zx6elj594m72lz8gf566y5e",
+          "pub_key": null,
+          "account_number": "45",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1pw9ytrr9gcjctduuh9nr79wrygkmfmh0kj76sc",
+          "pub_key": null,
+          "account_number": "46",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy19v94c3z7ckarwsum76kaagma0wqsqhh5ddc7kg",
+          "pub_key": null,
+          "account_number": "47",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy1a8w58zq9266ved6g6yga2ag05mvlecyagqvgaf",
+          "pub_key": null,
+          "account_number": "48",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "banksy19jfskgqseuuk2kznfzy4esw6unujgtjg8cfsve",
+          "pub_key": null,
+          "account_number": "49",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "banksy1p86dkzgthapcqkgymq70qvjnt4exf09hamhkza",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1pw9ytrr9gcjctduuh9nr79wrygkmfmh0kj76sc",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1p677qe3xgjgm3w7aeccmaqdgltf29rmrrqxm3e",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1rrfdtx5qj4d9nt5pzsaz5fv85pclcu0h8mf6rk",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1rsgkgzmtrglrfx3zytpapc35m8g954z4hw376h",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy19xhmx2krzmqwypjnqht28r43mkw3hy6mnpdjpp",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy19f0w9svr905fhefusyx4z8sf83j6et0g2vlyp8",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy19v94c3z7ckarwsum76kaagma0wqsqhh5ddc7kg",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy19jfskgqseuuk2kznfzy4esw6unujgtjg8cfsve",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy19klmacamxh9cnmq209zxagnjzr5gw9ee3ek3sn",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1xp6n38h3zh75pk874tkxt7w7jdslul0vae3fsa",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1xj806ur5e9s2yzaag8wyffp542pkkmdal5n4x4",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1xhrtx9x030cw95qmhs2alypn72vxjszpwwncex",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy18d0hqufk3475dlct7fzlg8nn428d3xm73g5vxf",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy18wjv3ltj2fpg32knqy7ycms9alrwauwm2evvtk",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy180wngzau7jzdw9xdqp0a4mm7740y5rfzffjsey",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1853yrelll4y2l0n5np4465xr0x0azranupktcp",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1fg9m8zcjrhvzw2kkrdjvppw255n3z7melt2332",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1fmz5pw0agjg4mz4nxs34ha6rc5337fc3cufhqv",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy12zlkhsyrlfusqrfdag3ktwf6uxzdr9zx58k48u",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy123rv9yms3dwfs0gh8rwenzxn8u5w34pen5fl6j",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ttfw6wsh4p50xzqvljqdsxx0lpuq8glgvmaca3",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1dxw8xn38y3xxnsnqtx7m0yjgyjjnjksynw7jex",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1wrmdr3wac569csgk2kpkdslpjwgxa4ldyk9djd",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1wdmxsmqw7lgrj4eaf5rtl86vmcmuqz2grgk70s",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1wwgrl05jkk3a3m9gm0wwmvq3r0fd93p8hvzay0",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy10jmtfrgcaky8d0uqrqt53u92pjwjz7g3nks8ua",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy13seedrg58ckmdzmuqz6xd8swcvxsdy8mtpkusr",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1j4n3e02s95c3jgz7m0lapnz9caynmj0nme85a5",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1n7dz0p8ag42lh6qqvqrflw35qyu9dfefgqy8zz",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy140l6y2gp3gxvay6qtn70re7z2s0gn57zx7v3u2",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1kth8g5d4du4etd3v6mky7x3t0mahk8hrcxfv4e",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1kl9e4jghxftmamrmset4yhuhwmf2uu637asj52",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1cgqxeuxycuvdr9stlnzedtsmhel46f8ux8ggty",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1c3npqc23h0rw0s2s5la0umel4w0uff94d4c776",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ckpeee8vv2vppzaktdnn8lcj87y5qsg7wxh88j",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ca22368exer6vcyrhrqgye3mmks9njzr0gfvah",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ecxls8tq8csdqns7cpe8zcry864z8z0dhzpsak",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1e70myv36hgwa2lss556wjt5aszxkjmauten0wm",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy16fxpvh0xp5fset0exn766m7lmyucaarawggpfd",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ugxfpz7x6c4zesanh2vv6u925trpm2xe6zj70a",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ugec23qgj9ungv3uflg47mzrw90h3d9dhesqwc",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1u4xt3ka747ll5938y938hwhksdyex2vlmp8hsl",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1a8w58zq9266ved6g6yga2ag05mvlecyagqvgaf",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ang6lqf2zzgjln4zx6elj594m72lz8gf566y5e",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1ah66se5x95za5pma42ck0dexnnydqdar25ycx2",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy17r87nugyy4qevl4s355vd6exls8w3lcx6e34d6",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1777vhtpwld6chyhy0947a0wvhjftx67v0ttq6v",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1lx7cmt7kfa4de82sl8cdn0yy4vu3q0d4gdnu8t",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "banksy1l836s3p6vrgmmh0zm4fp7fphru6dqq3qz8xd27",
+          "coins": [
+            {
+              "denom": "ppica",
+              "amount": "50000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "ppica",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ppica",
+            "amount": "500000000000000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "432000s",
+        "quorum": "0.300000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true
+      }
+    },
+    "group": {
+      "group_members": [],
+      "group_policies": [],
+      "group_policy_seq": "0",
+      "group_seq": "0",
+      "groups": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "08-wasm",
+            "09-localhost"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "interchainquery": {
+      "host_port": "icqhost",
+      "params": {
+        "host_enabled": true,
+        "allow_queries": []
+      }
+    },
+    "mint": {
+      "incentives_supply": {
+        "amount": "66666666000000000000",
+        "denom": "ppica"
+      },
+      "minter": {
+        "annual_provisions": "0.000000000000000000",
+        "inflation": "0.130000000000000000"
+      },
+      "params": {
+        "blocks_per_year": "6311520",
+        "goal_bonded": "0.670000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "max_token_per_year": "0",
+        "min_token_per_year": "0",
+        "mint_denom": "ppica"
+      }
+    },
+    "packetfowardmiddleware": {
+      "params": {
+        "fee_percentage": "0.000000000000000000"
+      },
+      "in_flight_packets": {}
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "6000s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.050000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ppica",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "transmiddleware": {
+      "token_infos": []
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
