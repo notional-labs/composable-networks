@@ -41,3 +41,16 @@ c7f52f81ee1b1f7107fc78ca2de476c730e00be9@65.109.80.150:2635
 
 ## Explorer:
 ....
+
+
+
+## Snapshots: 
+Fresh statesynced snapshots and other mainnet materials could be found here: https://polkachu.com/networks/composable
+Thanks to Polkachu.
+
+## Creating Validator
+
+After getting your node synced and token ready, submit this transaction to create your validator:
+```
+centaurid tx staking create-validator --pubkey=$(centaurid tendermint show-validator) --moniker VAL_NAME --details="XXXX" --identity XXXX --security-contact XXXX --website XXXX --commission-max-rate 0.1 --commission-max-change-rate 0.05 --commission-rate 0.05 --min-self-delegation 1 --from YOUR_KEY --amount=1000000000000ppica --chain-id centauri-1
+```
