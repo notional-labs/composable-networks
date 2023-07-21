@@ -54,3 +54,5 @@ After getting your node synced and token ready, submit this transaction to creat
 ```
 centaurid tx staking create-validator --pubkey=$(centaurid tendermint show-validator) --moniker VAL_NAME --details="XXXX" --identity XXXX --security-contact XXXX --website XXXX --commission-max-rate 0.1 --commission-max-change-rate 0.05 --commission-rate 0.05 --min-self-delegation 1 --from YOUR_KEY --amount=1000000000000ppica --chain-id centauri-1
 ```
+
+*WARNING:* Remember to back up your `priv_validator_key.json` in ~/.centauri/config/ alongside with the seed phrases to your wallet.
