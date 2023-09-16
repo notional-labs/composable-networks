@@ -26,7 +26,11 @@ Feel free to PR your peers/seeds here:
 
 ```
 
-### Download the genesis and start:
+### Genesis and chain-id:
+Chain-id
 ```
-
+ics-testnet
+```
+Genesis
+```
 ```
