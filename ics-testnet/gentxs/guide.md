@@ -43,12 +43,12 @@ The output will look like this:
 ```
 Genesis transaction written to "~/.banksy/config/gentx/gentx-XXX.json"
 ```
-Fork the repo and create a pull request with your gentx-XXX.json moved to this directory: https://github.com/notional-labs/composable-networks/tree/main/banksy-testnet-3/gentxs
+Fork the repo and create a pull request with your gentx-XXX.json moved to this directory: https://github.com/notional-labs/composable-networks/tree/ics-testnet/gentxs
 
 Remember to change the file name to your validator name `gentx-YOURNAME.json`
 
 Example:
 ```
-git clone https://github.com/notional-labs/composable-networks/tree/main/banksy-testnet-3/gentxs
-mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/banksy-testnet-3/gentxs/gentx-YOURNAME.json
+git clone https://github.com/notional-labs/composable-networks/tree/ics-testnet/gentxs
+mv ~/.banksy/config/gentx/gentx-XXX.json ~/composable-networks/ics-testnet/gentxs/gentx-YOURNAME.json
 ```
