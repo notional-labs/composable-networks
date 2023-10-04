@@ -28,5 +28,6 @@ a89d3d9fc0465615aa1100dcf53172814aa2b8cf@168.119.91.22:2260
 ### Download the genesis and start:
 ```
 wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-4/genesis.json
+
 banksyd start --p2p.seeds a89d3d9fc0465615aa1100dcf53172814aa2b8cf@168.119.91.22:2260
 ```
