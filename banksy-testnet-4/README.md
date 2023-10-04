@@ -5,12 +5,12 @@
 
 ### Binary and config:
 
-Testnet-4 launch version: v5.2.3-testnet4, precompiled binary for linux could be found here: https://github.com/notional-labs/composable-centauri/tree/v5.2.3-testnet4
+Testnet-4 launch version: v5.2.4-testnet4, precompiled binary for linux could be found here: https://github.com/notional-labs/composable-centauri/tree/v5.2.4-testnet4
 
 ```
 cd ~/composable-centauri
 git fetch --all
-git checkout v5.2.3-testnet4
+git checkout v5.2.4-testnet4
 make install
 centaurid tendermint unsafe-reset-all
 ```
