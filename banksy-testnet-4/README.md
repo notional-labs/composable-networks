@@ -12,7 +12,7 @@ cd ~/composable-centauri
 git fetch --all
 git checkout v5.2.3-testnet4
 make install
-banksyd tendermint unsafe-reset-all
+centaurid tendermint unsafe-reset-all
 ```
 
 ### Peers & seeds:
