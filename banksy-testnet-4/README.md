@@ -1,4 +1,4 @@
-## Composable Testnet 3 chain info
+## Composable Testnet 4 chain info
 
 
 ## Syncing materials:
