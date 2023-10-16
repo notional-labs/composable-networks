@@ -15,7 +15,7 @@ Feel free to PR your peers/seeds here:
 a89d3d9fc0465615aa1100dcf53172814aa2b8cf@168.119.91.22:2260
 ```
 
-### Statesync scripts
+### Example statesync scripts
 ```
 rm -rf /root/.banksy
 
