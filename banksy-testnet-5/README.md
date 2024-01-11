@@ -16,6 +16,15 @@ Feel free to PR your peers/seeds here:
 6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656
 ```
 
+### Sync from genesis
+```
+rm -rf /root/.banksy
+$HOME/go/bin/centaurid init test --chain-id=banksy-testnet-5
+curl -Ls https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-5/genesis.json > ~/.banksy/config/genesis.json
+$HOME/go/bin/centaurid start --p2p.persistent_peers=6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656
+```
+
+
 ### Example statesync scripts
 ```
 rm -rf /root/.banksy
