@@ -1,5 +1,6 @@
 ## Composable Testnet 5 chain info
 
+`v6.3.6`
 
 ## Syncing materials:
 
@@ -12,7 +13,7 @@ Feel free to PR your peers/seeds here:
 
 *Seeds:*
 ```
-
+6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656
 ```
 
 ### Example statesync scripts
