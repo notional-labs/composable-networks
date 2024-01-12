@@ -16,7 +16,7 @@ Feel free to PR your peers/seeds here:
 6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656
 ```
 
-### Sync from genesis
+### Example sync from genesis script
 ```
 rm -rf /root/.banksy
 $HOME/go/bin/centaurid init test --chain-id=banksy-testnet-5
@@ -25,30 +25,25 @@ $HOME/go/bin/centaurid start --p2p.persistent_peers=6e8a56df9b9c52a730dd780172fc
 ```
 
 
-### Example statesync scripts
+### Example statesync script
 ```
 rm -rf /root/.banksy
+$HOME/go/bin/centaurid init test --chain-id=banksy-testnet-5
+curl -Ls https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-5/genesis.json > ~/.banksy/config/genesis.json 
 
-/root/go/bin/centaurid init test --chain-id=banksy-testnet-5
-
-wget -O ~/.banksy/config/genesis.json https://raw.githubusercontent.com/notional-labs/composable-networks/main/banksy-testnet-5/genesis.json
-
-
-INTERVAL=100
-LATEST_HEIGHT=$(curl -s https://rpc-banksy5.notional.ventures/block | jq -r .result.block.header.height)
+INTERVAL=3000
+LATEST_HEIGHT=$(curl -s http://65.109.26.223:26657/block | jq -r .result.block.header.height)
 BLOCK_HEIGHT=$((LATEST_HEIGHT - INTERVAL))
-TRUST_HASH=$(curl -s "https://rpc-banksy5.notional.ventures/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+TRUST_HASH=$(curl -s "http://65.109.26.223:26657/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 
 echo "BLOCK_HEIGHT=${BLOCK_HEIGHT}"
 echo "TRUST_HASH=${TRUST_HASH}"
 
 export CENTAURID_STATESYNC_ENABLE=true
-export CENTAURID_STATESYNC_RPC_SERVERS="https://rpc-banksy5.notional.ventures:443,https://rpc-centauri5.testnet.composablenodes.tech:443"
+export CENTAURID_STATESYNC_RPC_SERVERS="http://65.109.26.223:26657,http://65.109.26.223:26657"
 export CENTAURID_STATESYNC_TRUST_HEIGHT=$BLOCK_HEIGHT
 export CENTAURID_STATESYNC_TRUST_HASH=$TRUST_HASH
-export CENTAURID_P2P_PERSITENT_PEERS=""
+export CENTAURID_P2P_PERSITENT_PEERS="6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656"
 
-# Start chain.
-cd $HOME
-sh start_chain.sh
+$HOME/go/bin/centaurid start --p2p.persistent_peers=6e8a56df9b9c52a730dd780172fc135a96a9feda@65.109.26.223:26656
 ```
